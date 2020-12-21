@@ -1,8 +1,7 @@
 <?php
 $fname="Vsevolod";
-$sname="Smirnov"
-$data= "07.04.1999г"
-$age=21?>
+$sname="Smirnov";
+$age=21 ;?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,12 +35,11 @@ $age=21?>
         </div>
         <div class="card_info">
           <div class="card_name">
-            <p><?php echo $fname;
+            <p><?php echo $fname; echo " ";
                   echo $sname;?></p>
           </div>
           <div class="card_info row">
               <div class="card_info_myself">
-                <p><span class="category">Дата рождения:</span> <?php echo $data; ?> </p>
                 <p><span class="category"0>Возраст:</span> <?php echo $age; ?> </p>
                 <p><span class="category">Город:</span> Магнитогорск</p>
                 <p><span class="category">Хобби:</span> Сноуборд , книги , программирование</p>
