@@ -1,3 +1,8 @@
+<?php
+$fname="Vsevolod";
+$sname="Smirnov"
+$data= "07.04.1999г"
+$age=21?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +20,7 @@
           <li><a href="https://vk.com/sbst749">Вконтакте</a></li>
           <li><a href="https://www.instagram.com/vsevolod_sm/?hl=ru">Instagram</a></li>
           <li><a href="https://mail.google.com/">G-mail</a></li>
-          <li><a href="https://www.whatsapp.com/">Whats_App</a></li>
+          <li><a href="/">Whats_App</a></li>
         </ul>
       </div>
 
@@ -31,11 +36,13 @@
         </div>
         <div class="card_info">
           <div class="card_name">
-            <p>Смирнов Всеволод Евгеньевич</p>
+            <p><?php echo $fname;
+                  echo $sname;?></p>
           </div>
           <div class="card_info row">
               <div class="card_info_myself">
-                <p><span class="category">Дата рождения:</span> 07.04.1999г </p>
+                <p><span class="category">Дата рождения:</span> <?php echo $data; ?> </p>
+                <p><span class="category"0>Возраст:</span> <?php echo $age; ?> </p>
                 <p><span class="category">Город:</span> Магнитогорск</p>
                 <p><span class="category">Хобби:</span> Сноуборд , книги , программирование</p>
                 <p><span class="category">Место учебы:</span> МГТУ им.Носова , ИЭиАС , прикладная информатика (Управление IT-проектами)</p>
